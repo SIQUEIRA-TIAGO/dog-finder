@@ -53,7 +53,7 @@ main {
 
 /* ROOT */
 
-#root {
+.root {
     padding: 32px;
     width: 500px;
     border-radius: 6px;

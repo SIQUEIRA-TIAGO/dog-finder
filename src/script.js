@@ -23,6 +23,7 @@ const findDog = async () => {
     const breeds = data.breeds[0]
 
     const root = document.getElementById('root')
+    root.className = 'root'
     if (root.childNodes) {
         [...root.childNodes].forEach(node => node.remove())
     }
